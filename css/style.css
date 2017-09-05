@@ -1,0 +1,72 @@
+@font-face { font-family: witcher; src: url('../font/witcher.ttf'); } 
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    text-align: center;
+    background-image: url(../img/back.jpg)
+}
+.boton{
+    background-color: white;
+    border-color: grey;
+    font-size: 15pt;
+    width: 10em;
+    border-radius: 15px;
+    border-width: 7px;
+    text-shadow: 2px 2px lightgrey;
+    border-style: groove;
+}
+.boton:hover{
+    background-color: dimgrey;
+    border-color: lightgrey;
+    font-size: 15pt;
+    width: 10em;
+    border-radius: 15px;
+    border-width: 7px;
+    color: white;
+    text-shadow: 2px 2px black;
+    border-style: groove;
+}
+#title{
+    color: white;
+    text-shadow: 2px 2px grey;
+    font-family: witcher, sans-serif;
+}
+#musicSW{
+    position: absolute;
+    top: 2%;
+    left: 2%
+}
+#gamezone{
+    position: absolute;
+    height: 70%;
+    width: 99%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 2%;
+}
+#clasificación{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+}
+#clasi{
+    position: absolute;
+    top: 79.1%;
+    width: 99%;    
+}
+#clasi , table{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.clasiTable{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+}
+.not_hidden{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pasapalabra oscmedgon</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body onload="clasi()">
+    <h1 id="title"> PASAPALABRA POR ÓSCAR MEDINA</h1>
+    <div id="music">
+        <button onclick="musicSW()" value="on" id="musicSW" class="boton">Música activada</button>
+        <audio autoplay loop><source src="sound/background_music.mp3" type="audio/mpeg">Tu navegador no soporta este tipo de música</audio>
+    </div>
+    <div id="gamezone">
+        <div id="zone2" class="hidden">hola</div>
+        <div id="zone3" class="hidden">hola</div>
+    </div>
+    <div id="clasi">
+            <table id="clasificación">
+                <tr>
+                    <td>
+                        Puesto
+                    </td>
+                    <td>
+                        Nombre
+                    </td>
+                    <td>
+                        Aciertos
+                    </td>
+                    <td>
+                        Fallos
+                    </td>
+                    <td>
+                        Tiempo
+                    </td>
+                </tr>
+                <tr id="clas1"></tr>
+                <tr id="clas2"></tr>
+                <tr id="clas3"></tr>
+                <tr id="clas4"></tr>
+                <tr id="clas5"></tr>
+            </table>
+        </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
