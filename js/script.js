@@ -62,8 +62,10 @@ function musicSW(){
     }
 }
 //----------------------Esta función entra en juego cuando pulsas el boton de NUEVA PARTIDA
-function nameReq(){
-
+function introNext(){
+    gameZone.setAttribute("class", "not_hidden");
+    nombre = document.getElementById("nameCK").value
+        console.log(nombre)
 }
 
 
@@ -82,8 +84,6 @@ function closeClas(){
 }
 function submit(){    
     if (firstRun === true){
-        nombre = document.getElementById("respuesta").value
-        console.log(nombre)
         document.getElementById("pregunta").innerHTML = "Hola " + nombre + " tienes 160 segundos para responder a todas las preguntas, aquí tienes la primera." + "</br>" + questions[pos].question
         respuesta = (document.getElementById("respuesta").value)
         firstRun = 2;
