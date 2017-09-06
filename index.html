@@ -6,18 +6,24 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
-<body onload="clasi()">
-    <h1 id="title"> PASAPALABRA POR ÓSCAR MEDINA</h1>
+<body>
     <div id="music">
-        <button onclick="musicSW()" value="on" id="musicSW" class="boton">Música activada</button>
+        <button onclick="musicSW()" value="on" id="musicSW"><img src="img/sound_on.png" width="80"/></button>
         <audio autoplay loop><source src="sound/background_music.mp3" type="audio/mpeg">Tu navegador no soporta este tipo de música</audio>
     </div>
-    <div id="gamezone">
+       <div id="jaskier">
+           <img src="img/jaskier.png" width="100%"/>
+       </div>
+       <div id="tablon" onclick="tablon()">
+       </div>
         <div id="zone2" class="hidden">hola</div>
         <div id="zone3" class="hidden">hola</div>
-    </div>
-    <div id="clasi">
-            <table id="clasificación">
+    <div id="tabOpen" class="hidden">
+        <div id="back1">
+            <img src="img/back.png" width="100%" onclick="closeClas()">
+        </div>
+        <div id="clasificacion">
+            <table>
                 <tr>
                     <td>
                         Puesto
@@ -42,6 +48,7 @@
                 <tr id="clas5"></tr>
             </table>
         </div>
+    </div>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

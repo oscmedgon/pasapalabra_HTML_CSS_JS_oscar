@@ -4,69 +4,90 @@
 }
 body{
     text-align: center;
-    background-image: url(../img/back.jpg)
 }
-.boton{
-    background-color: white;
-    border-color: grey;
-    font-size: 15pt;
-    width: 10em;
-    border-radius: 15px;
-    border-width: 7px;
-    text-shadow: 2px 2px lightgrey;
-    border-style: groove;
+#tablon{
+    position: absolute;
+    top: 52.3%;
+    background-image: url(../img/tablon.png);
+    width: 260px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
 }
-.boton:hover{
-    background-color: dimgrey;
-    border-color: lightgrey;
-    font-size: 15pt;
-    width: 10em;
-    border-radius: 15px;
-    border-width: 7px;
-    color: white;
-    text-shadow: 2px 2px black;
-    border-style: groove;
+#tablon:hover{
+    position: absolute;
+    top: 52.3%;
+    background-image: url(../img/tablon_hover.png);
+    width: 260px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+#jaskier{
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    left: 45%;
+    top: 30%
+}
+html { 
+  background: url(../img/back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #title{
     color: white;
     text-shadow: 2px 2px grey;
     font-family: witcher, sans-serif;
+}
+button{
+    background: none
 }
 #musicSW{
     position: absolute;
     top: 2%;
     left: 2%
 }
-#gamezone{
+#tabOpen{
+    background:  url(../img/clasificacion.jpg) no-repeat center center fixed; 
     position: absolute;
-    height: 70%;
-    width: 99%;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 2%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 99%;
 }
-#clasificación{
+#back1{
+    position: absolute;
+    width: 15%;
+    top: 70%
+}
+#clasificacion{
+    position: absolute;
+    top: 30%;
+    left: 28%;
     margin: auto;
-    width: 50%;
+    width: 40%;
     text-align: center;
-    background: rgba(255, 255, 255, 0.5);
 }
-#clasi{
-    position: absolute;
-    top: 79.1%;
-    width: 99%;    
-}
-#clasi , table{
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.clasiTable{
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    text-align: center;
+#clasificación , table{
+    width: 100%;
+    font-size: 20pt;
+    text-shadow: 1px 1px white;
+
 }
 .not_hidden{
     visibility: visible;
 }
 .hidden{
     visibility: hidden;
+}
+#zone2{
+    text-align: left;
+}
+#zone2 , ul , li{
+    text-align: left;
 }

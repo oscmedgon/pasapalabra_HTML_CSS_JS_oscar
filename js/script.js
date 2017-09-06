@@ -55,10 +55,10 @@ for(i = 0 ; i < ordered.length ; i++){
 function musicSW(){
     if(music === true){
         music = false;
-        document.getElementById("music").innerHTML = "<button onclick='musicSW()'' value='off' id='musicSW' class='boton'>Música desactivada</button>"
+        document.getElementById("music").innerHTML = "<button onclick='musicSW()'' value='off' id='musicSW'><img src='img/sound_off.png' width='80'/></button>"
     } else if(music === false){
         music = true;
-        document.getElementById("music").innerHTML = "<button onclick='musicSW()'' value='on' id='musicSW' class='boton'>Música activada</button><audio autoplay loop><source src='sound/background_music.mp3' type='audio/mpeg'>Tu navegador no soporta este tipo de música</audio>"
+        document.getElementById("music").innerHTML = "<button onclick='musicSW()'' value='on' id='musicSW'><img src='img/sound_on.png' width='80'/></button><audio autoplay loop><source src='sound/background_music.mp3' type='audio/mpeg'>Tu navegador no soporta este tipo de música</audio>"
     }
 }
 //----------------------Esta función entra en juego cuando pulsas el boton de NUEVA PARTIDA
@@ -67,7 +67,13 @@ function nameReq(){
 }
 
 
-
+function tablon(){
+    tabOpen.setAttribute("class", "not_hidde");
+    clasi();
+}
+function closeClas(){
+    tabOpen.setAttribute("class", "hidden");
+}
 function submit(){    
     if (firstRun === true){
         nombre = document.getElementById("respuesta").value
