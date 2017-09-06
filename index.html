@@ -11,8 +11,8 @@
         <button onclick="musicSW()" value="on" id="musicSW"><img src="img/sound_on.png" width="80"/></button>
         <audio autoplay loop><source src="sound/background_music.mp3" type="audio/mpeg">Tu navegador no soporta este tipo de música</audio>
     </div>
-       <div id="jaskier">
-           <img src="img/jaskier.png" width="100%"/>
+       <div id="jaskier" onclick="salute()">
+           
        </div>
        <div id="tablon" onclick="tablon()">
        </div>
@@ -21,6 +21,17 @@
     <div id="tabOpen" class="hidden">
         <div id="back1">
             <img src="img/back.png" width="100%" onclick="closeClas()">
+        </div>
+        <div id="instructions" class="hidden">
+            <div id="textoIntro">
+                <p>Hola forastero, me llamo Jaskier, y si estás aquí es por que quieres trabajar conmigo.</p>
+                <p>Antes de nada te voy a explicar en que consiste la prueba, ya que vas a tener que pasarla si quieres el puesto. Para ganarte el puesto tienes que superar a los candidatos que has podido ver en el tablón de anuncios.</p>
+                <p>Te voy a hacer 27 preguntas, tienes que responder tantas como puedas en menos de 160 segundos, si no te sabes la respuesta, o quieres pensarla mejor escribe pasapalabra, no importa si usas mayúsculas o no la respuesta se validará igual en los dos casos.</p>
+                <p> Ha llegado el momento, ¿Que quieres hacer?</p>
+                <input type="text" id="nameCK" placeholder="Introduce tu nombre aquí" autofocus><br>
+                <img src="img/intro_back.png" onclick="introStop()" width="30%">
+                <img src="img/intro_start.png" onclick="introNext()" width="30%">
+            </div>
         </div>
         <div id="clasificacion">
             <table>

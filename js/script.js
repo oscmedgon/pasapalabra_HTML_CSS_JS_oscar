@@ -67,6 +67,12 @@ function nameReq(){
 }
 
 
+function salute(){
+    instructions.setAttribute("class", "not_hidden");
+}
+function introStop(){
+    instructions.setAttribute("class", "hidden");
+}
 function tablon(){
     tabOpen.setAttribute("class", "not_hidde");
     clasi();

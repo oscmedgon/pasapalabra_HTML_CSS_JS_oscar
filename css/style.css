@@ -6,7 +6,7 @@ body{
     text-align: center;
 }
 #tablon{
-    position: absolute;
+    position: fixed;
     top: 52.3%;
     background-image: url(../img/tablon.png);
     width: 260px;
@@ -16,7 +16,7 @@ body{
         
 }
 #tablon:hover{
-    position: absolute;
+    position: fixed;
     top: 52.3%;
     background-image: url(../img/tablon_hover.png);
     width: 260px;
@@ -25,11 +25,36 @@ body{
     background-size: cover;
 }
 #jaskier{
-    width: 30%;
+    background-image:  url("../img/jaskier.png");
+    width: 20%;
     height: 50%;
-    position: absolute;
+    position: fixed;
     left: 45%;
-    top: 30%
+    top: 39%;
+    background-size: cover;
+}
+#jaskier:hover{
+    background-image:  url("../img/jaskier_hover.png");
+    width: 20%;
+    height: 50%;
+    position: fixed;
+    left: 45%;
+    top: 39%;
+    background-size: cover;
+}
+#instructions{
+    background:  url(../img/intro.jpg) no-repeat center center fixed; 
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 99%;    
+}
+#nameCK{
+    width: 100%;
+    text-align: center;
+    background: rgba(200, 54, 54, 0); 
+    border-bottom: solid 2px black;
 }
 html { 
   background: url(../img/back.jpg) no-repeat center center fixed; 
@@ -44,29 +69,39 @@ html {
     text-shadow: 2px 2px grey;
     font-family: witcher, sans-serif;
 }
+#textoIntro{
+    top: 4%;
+    position: fixed;
+    left: 54%;
+    width: 26em;
+    text-align: justify;
+    text-shadow: 1px 1px white;
+    font-size: 16pt;
+}
 button{
     background: none
 }
 #musicSW{
+    z-index: 10;
     position: absolute;
     top: 2%;
     left: 2%
 }
 #tabOpen{
     background:  url(../img/clasificacion.jpg) no-repeat center center fixed; 
-    position: absolute;
+    position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
     height: 99%;
 }
 #back1{
-    position: absolute;
+    position: fixed;
     width: 15%;
     top: 70%
 }
 #clasificacion{
-    position: absolute;
+    position: fixed;
     top: 30%;
     left: 28%;
     margin: auto;
