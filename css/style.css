@@ -15,6 +15,7 @@ body{
     background-size: cover;
         
 }
+
 #tablon:hover{
     position: fixed;
     top: 52.3%;
@@ -79,7 +80,7 @@ html {
     font-size: 16pt;
 }
 #gameZone{
-    background:  url(../img/gameZone.jpg) no-repeat left bottom fixed;
+    background:  url(../img/gameZone2.jpg) no-repeat left bottom fixed;
     background-size: cover;
     position: fixed;
     top: 0%;
@@ -134,4 +135,26 @@ button{
 }
 #zone2 , ul , li{
     text-align: left;
+}
+#questionZone{
+    background:  url(../img/pergamino.png) no-repeat right 10% top fixed;
+    background-size: contain;
+    position: fixed;
+    width: 50%;
+    height: 99%;
+    right:0%;
+}
+.cardTitle{
+    text-align: justify;
+    color: white;
+    width: 64%;
+    margin: auto;
+    margin-top: 30%;
+    font-size: 28pt;
+    text-shadow: 4px 2px black;
+}
+#respuesta{
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
 }

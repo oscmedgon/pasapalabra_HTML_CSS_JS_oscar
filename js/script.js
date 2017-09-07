@@ -1,32 +1,31 @@
-
 var questions = [
-    { letter: "a", answer: "a", status: 0, question: ("CON LA A. Dicho de una supuesta criatura extraterrestre: Apoderarse de alguien") },
-    { letter: "b", answer: "a", status: 0, question: ("CON LA B. Juego que ha sacado de quicio a todos los 'Skylabers' en las sesiones de precurso") },
-    { letter: "c", answer: "a", status: 0, question: ("CON LA C. Niño, crío, bebé") },
-    { letter: "d", answer: "a", status: 0, question: ("CON LA D. Anormalidad en la función del aparato digestivo caracterizada por frecuentes evacuaciones y su consistencia líquida") },
-    { letter: "e", answer: "a", status: 0, question: ("CON LA E. Gelatinoso y se encuentra debajo de la membrana plasmática. Los cazafantasmas medían su radiación") },
-    { letter: "f", answer: "a", status: 0, question: ("CON LA F. Que no requiere gran esfuerzo, capacidad o dificultad") },
-    { letter: "g", answer: "a", status: 0, question: ("CON LA G. Conjunto enorme de estrellas, polvo interestelar, gases y partículas") },
-    { letter: "h", answer: "a", status: 0, question: ("CON LA H. Suicidio ritual japonés por desentrañamiento") },
-    { letter: "i", answer: "a", status: 0, question: ("CON LA I. Templo cristiano") },
-    { letter: "j", answer: "a", status: 0, question: ("CON LA J. Variedad salvaje del cerdo que sale en la película 'El Rey León', de nombre Pumba") },
-    { letter: "k", answer: "a", status: 0, question: ("CON LA K. Persona que se juega la vida realizando una acción temeraria") },
-    { letter: "l", answer: "a", status: 0, question: ("CON LA L. Hombre lobo") },
-    { letter: "m", answer: "a", status: 0, question: ("CON LA M. Persona que huye del trato con otras personas o siente gran aversión hacia ellas") },
-    { letter: "n", answer: "a", status: 0, question: ("CON LA N. Demostración de poca inteligencia") },
-    { letter: "ñ", answer: "armiño", status: 0, question: ("CONTIENE LA Ñ. Es un druida de Skellige. Fue consejero del rey Bran de Skellige") },
-    { letter: "o", answer: "a", status: 0, question: ("CON LA O. Humanoide fantástico de apariencia terrible y bestial, piel de color verde creada por el escritor Tolkien") },
-    { letter: "p", answer: "a", status: 0, question: ("CON LA P. Raza ancestral tecnológicamente avanzada que se caracteriza por sus grandes poderes psíonicos del videojuego StarCraft") },
-    { letter: "q", answer: "a", status: 0, question: ("CON LA Q. Producto obtenido por la maduración de la cuajada de la leche") },
-    { letter: "r", answer: "a", status: 0, question: ("CON LA R. Roedor") },
-    { letter: "s", answer: "a", status: 0, question: ("CON LA S. Comunidad salvadora de todo desarrollador informático") },
-    { letter: "t", answer: "a", status: 0, question: ("CON LA T. Película del director James Cameron que consolidó a Arnold Schwarzenegger como actor en 1984") },
-    { letter: "u", answer: "a", status: 0, question: ("CON LA U. Escritor y filósofo español de la generación del 98 autor del libro 'Niebla' en 1914") },
-    { letter: "v", answer: "a", status: 0, question: ("CON LA V. Nombre dado a los miembros de los pueblos nórdicos originarios de Escandinavia, famosos por sus incursiones y pillajes en Europa") },
-    { letter: "w", answer: "a", status: 0, question: ("CONTIENE LA W. Emparedado hecho con dos rebanadas de pan entre las cuales se coloca jamón y queso") },
-    { letter: "x", answer: "a", status: 0, question: ("CONTIENE LA X. Toxina bacteriana utilizada en cirujía estética") },
-    { letter: "y", answer: "a", status: 0, question: ("CONTIENE LA Y. Pequeño cáctus conocido por sus alcaloides psicoactivos utilizado de forma ritual y medicinal por indígenas americanos") },
-    { letter: "z", answer: "a", status: 0, question: ("CON LA Z. Escuela de budismo que busca la experiencia de la sabiduría más allá del discurso racional") },
+    { letter: "A", answer: "aedirn", status: 0, question: ("CON LA A. Uno de los Reinos del Norte cuya capital es Vengergerg.") },
+    { letter: "B", answer: "brujo", status: 0, question: ("CON LA B. Un individuo que ha pasado por un extensivo entrenamiento y misteriosos rituales con el fin de convertirlo en un cazador de monstruos errante a sueldo.") },
+    { letter: "C", answer: "ciri", status: 0, question: ("CON LA C. Última hija de la vieja sangre que se conoce con vida.") },
+    { letter: "D", answer: "driada", status: 0, question: ("CON LA D. Raza de mujeres guerreras que habitan en el bosque de Brokilon.") },
+    { letter: "E", answer: "Emhyr", status: 0, question: ("CON LA E. Emperador, también conocido como la llama blanca que danza sobre sus enemigos.") },
+    { letter: "F", answer: "francesca", status: 0, question: ("CON LA F. Nombre de la elfa y hechicera que reina en Dol Blathanna.") },
+    { letter: "G", answer: "geralt", status: 0, question: ("CON LA G. Nombre del protagonista de la saga.") },
+    { letter: "H", answer: "henselt", status: 0, question: ("CON LA H. Rey de Kaedwen.") },
+    { letter: "I", answer: "imlerith", status: 0, question: ("CON LA I. Comandante de la caceria salvaje, cuyo punto debil son su ego y los placeres carnales.") },
+    { letter: "J", answer: "jaskier", status: 0, question: ("CON LA J. Habilidoso y atractivo bardo, bien conocido por la danza de sus manos sobre el laud y con gran éxito con las mujeres.") },
+    { letter: "K", answer: "kaher morhen", status: 0, question: ("CON LA K. Nombre compuesto de la fortaleza utilizada por la escuela del lobo.") },
+    { letter: "L", answer: "leshen", status: 0, question: ("CON LA L. Monstruo que habita en los bosques y que pueden controlar la naturaleza a su alrededor.") },
+    { letter: "M", answer: "mahakam", status: 0, question: ("CON LA M. Región independiente famosa por sus minas y sus forjas.") },
+    { letter: "N", answer: "novigrado", status: 0, question: ("CON LA N. Ciudad libre dentro de la region de redania.") },
+    { letter: "Ñ", answer: "armiño", status: 0, question: ("CONTIENE LA Ñ. Es un druida de Skellige. Fue consejero del rey Bran de Skellige.") },
+    { letter: "O", answer: "oxenfurt", status: 0, question: ("CON LA O. Ciudad famosa por alvergar la mayor academia de los reinos del norte.") },
+    { letter: "P", answer: "pontar", status: 0, question: ("CON LA P. Es uno de los mayores ríos de los reinos del norte y hace de frontera entre los reinos de Redania y Kaedwen.") },
+    { letter: "Q", answer: "quen", status: 0, question: ("CON LA Q. Hechizo menor o señal utilizado como protección.") },
+    { letter: "R", answer: "radovid", status: 0, question: ("CON LA R. Rey conocido como el severo, por sus estrictos y a veces sangrientos métodos.") },
+    { letter: "S", answer: "skellige", status: 0, question: ("CON LA S. Conjunto de íslas conocida por sus saqueadores y piratas.") },
+    { letter: "T", answer: "triss", status: 0, question: ("CON LA T. Hechicera especializada en sanación, que también fué consejera real.") },
+    { letter: "U", answer: "uma", status: 0, question: ("CON LA U. Nombre del enano deforme, llamado así ya que es la única palabra que sabe pronunciar.") },
+    { letter: "V", answer: "vesemir", status: 0, question: ("CON LA V. Es miembro más antiguo y experimentado de la escuela del lobo.") },
+    { letter: "W", answer: "wyverno", status: 0, question: ("CON LA W. Munstruo draconido, a menudo confundido con un dragon, a pesar de ser mucho más pequeño.") },
+    { letter: "X", answer: "axia", status: 0, question: ("CONTIENE LA X. Señal de mucha utilidad cuando quieres información sin golpear a nadie.") },
+    { letter: "Y", answer: "yennefer", status: 0, question: ("CONTIENE LA Y. Hechicera conocida por sus rizos negros como el ala de un cuervo.") },
+    { letter: "Z", answer: "zerrikania", status: 0, question: ("CON LA Z. Tierra lejana y exótica, famosa por sus desiertos y sus sables.") },
 ]
 var leaderboard = [
 { name: "Geralt" , ok: 10 ,  nok: 17 },
@@ -37,11 +36,11 @@ var leaderboard = [
 var nombre = "";
 var firstRun = true;
 var pos = 0;
-var pos2 = 1;
 var myAnswer = "";
 var aciertos = 0;
 var fallos = 0;
 var music = true;
+//----------------------Muestra la clasificación en pantalla
 function clasi(){
 var ordered = (leaderboard.sort(function (a, b) {
     return b.ok - a.ok;
@@ -65,10 +64,37 @@ function musicSW(){
 function introNext(){
     gameZone.setAttribute("class", "not_hidden");
     nombre = document.getElementById("nameCK").value
-        console.log(nombre)
+    console.log(nombre)
+    cardGenerator()
+    introStop()
+
+}
+//---------------------Función que genera todas las tarjetas del juego y les asigna id y class
+function cardGenerator(){
+    var cards = []
+    for(var i = 0 ; i < questions.length; i++){
+        cards.push("<div id='card" + i + "' onclick='launchQuestion("+ i +")'><p class='letra'>" + questions[i].letter + "</p><img src='img/card.png' width='100%'></div>")
+        
+    }
+    document.getElementById("cards").innerHTML = cards
+}
+//--------------------Función que lanza la pregunta a la zona de juego.
+function launchQuestion(n1){
+    document.getElementById("questionZone").innerHTML = "<p class='cardTitle'>" + questions[n1].question +".</p><input type='text' id='respuesta' placeholder='Introduce tu respuesta'><br><img src='img/validate.png' width='30%' onclick='validar(" + n1 +")'>"
 }
 
-
+//--------------------Función que valida las respuestas enviadas por el usuario.
+function validar(p1){
+    myAnswer = (document.getElementById("respuesta").value).toLowerCase();
+    if(myAnswer === questions[p1].answer){
+        document.getElementById("card" + p1).innerHTML = "<div id='card" + p1 + "'><p class='letra'>" + questions[p1].letter + "</p><img src='img/card_ok.png' width='100%'></div>"
+        document.getElementById("questionZone").innerHTML = "<div></div>"
+    } else{
+        document.getElementById("card" + p1).innerHTML = "<div id='card" + p1 + "'><p class='letra'>" + questions[p1].letter + "</p><img src='img/card_nok.png' width='100%'></div>"
+        document.getElementById("questionZone").innerHTML = "<div></div>"
+    }
+}
+//--------------------Resto de funciones
 function salute(){
     instructions.setAttribute("class", "not_hidden");
 }

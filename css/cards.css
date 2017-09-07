@@ -1,0 +1,185 @@
+#cards{
+	position: absolute;
+	width: 51%;
+	left:19%;
+	height: 50%;
+
+}
+.letra{
+    color: white;
+    z-index: 100;
+    position: absolute;
+    top: 58%;
+    left: 8%;
+}
+/*------------------------------línea1*/
+#card0{
+	position: fixed;
+	left: 6%;
+	top: 10%;
+    width: 11%;
+    height: 12%
+        
+}
+#card1{
+	position: fixed;
+	left: 18%;
+	top: 10%;
+    width: 11%
+}
+#card2{
+	position: fixed;
+	left: 30%;
+	top: 10%;
+    width: 11%
+}
+#card3{
+	position: fixed;
+	left: 42%;
+	top: 10%;
+    width: 11%
+}
+/*------------------------------línea2*/
+#card4{
+	position: fixed;
+	left: 6%;
+	top: 24%;
+    width: 11%
+}
+#card5{
+	position: fixed;
+	left: 18%;
+	top: 24%;
+    width: 11%
+}
+#card6{
+	position: fixed;
+	left: 30%;
+	top: 24%;
+    width: 11%
+}
+#card7{
+	position: fixed;
+	left: 42%;
+	top: 24%;
+    width: 11%
+}
+/*------------------------------línea3*/
+#card8{
+	position: fixed;
+	left: 6%;
+	top: 36%;
+    width: 11%
+}
+#card9{
+	position: fixed;
+	left: 18%;
+	top: 36%;
+    width: 11%
+}
+#card10{
+	position: fixed;
+	left: 30%;
+	top: 36%;
+    width: 11%
+}
+#card11{
+	position: fixed;
+	left: 42%;
+	top: 36%;
+    width: 11%
+}
+/*------------------------------línea4*/
+#card12{
+	position: fixed;
+	left: 6%;
+	top: 48%;
+    width: 11%
+}
+#card13{
+	position: fixed;
+	left: 18%;
+	top: 48%;
+    width: 11%
+}
+#card14{
+	position: fixed;
+	left: 30%;
+	top: 48%;
+    width: 11%
+}
+#card15{
+	position: fixed;
+	left: 42%;
+	top: 48%;
+    width: 11%
+}
+/*------------------------------línea5*/
+#card16{
+	position: fixed;
+	left: 6%;
+	top: 60%;
+    width: 11%
+}
+#card17{
+	position: fixed;
+	left: 18%;
+	top: 60%;
+    width: 11%
+}
+#card18{
+	position: fixed;
+	left: 30%;
+	top: 60%;
+    width: 11%
+}
+#card19{
+	position: fixed;
+	left: 42%;
+	top: 60%;
+    width: 11%
+}
+/*------------------------------línea6*/
+#card20{
+	position: fixed;
+	left: 6%;
+	top: 72%;
+    width: 11%
+}
+#card21{
+	position: fixed;
+	left: 18%;
+	top: 72%;
+    width: 11%
+}
+#card22{
+	position: fixed;
+	left: 30%;
+	top: 72%;
+    width: 11%
+}
+#card23{
+	position: fixed;
+	left: 42%;
+	top: 72%;
+    width: 11%
+}
+/*------------------------------línea6*/
+#card24{
+	position: fixed;
+	left: 12%;
+	top: 84%;
+    width: 11%
+}
+#card25{
+	position: fixed;
+	left: 24%;
+	top: 84%;
+    width: 11%
+}
+#card26{
+	position: fixed;
+	left: 36%;
+	top: 84%;
+    width: 11%
+}

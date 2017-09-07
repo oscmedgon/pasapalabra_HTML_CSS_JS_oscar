@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Pasapalabra oscmedgon</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/cards.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <body>
@@ -11,11 +12,11 @@
         <button onclick="musicSW()" value="on" id="musicSW"><img src="img/sound_on.png" width="80"/></button>
         <audio autoplay loop><source src="sound/background_music.mp3" type="audio/mpeg">Tu navegador no soporta este tipo de música</audio>
     </div>
-       <div id="jaskier" onclick="salute()">
-           
-       </div>
-       <div id="tablon" onclick="tablon()">
-       </div>
+    <div id="jaskier" onclick="salute()">
+
+    </div>
+    <div id="tablon" onclick="tablon()">
+    </div>
     <div id="tabOpen" class="hidden">
         <div id="back1">
             <img src="img/back.png" width="100%" onclick="closeClas()">
@@ -32,7 +33,11 @@
             </div>
         </div>
         <div id="gameZone" class="hidden">
-            
+            <div id="cards">
+            </div>
+            <div id="questionZone">
+<!--                    <p class="cardTitle">Un individuo que ha pasado por un extensivo entrenamiento y misteriosos rituales con el fin de convertirlo en un cazador de monstruos errante a sueldo.</p><input type="text" id="respuesta" placeholder="Introduce tu respuesta"><br><img src="img/validate.png" width="30%" onclick="validar(1)">-->
+            </div>
         </div>
         <div id="clasificacion">
             <table>
