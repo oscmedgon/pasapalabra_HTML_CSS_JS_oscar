@@ -158,3 +158,27 @@ button{
     width: 50%;
     text-align: center;
 }
+#time{
+    z-index: 30;
+    position: absolute;
+    width: 20%;
+    bottom: 5%;
+    left: 60%;
+}
+#clock_img{
+    width: 10%
+}
+#clock_timer{
+    text-align: left;
+    text-shadow: 4px 2px white;
+}
+#exit_game{
+    background:  url(../img/exit.png);
+    background-size: 100%;
+    position: absolute;
+    z-index: 30;
+    height: 10em;
+    width: 10em;
+    bottom: 5%;
+    left: 80%
+}
