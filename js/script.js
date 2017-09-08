@@ -67,6 +67,9 @@ function introNext(){
     myAnswer = "";
     aciertos = 0;
     fallos = 0;
+    document.getElementById("clock_timer").innerHTML = "300"
+    document.getElementById("questionZone").innerHTML = ""
+    cards.setAttribute("class", "");
     gameZone.setAttribute("class", "not_hidden");
     nombre = document.getElementById("nameCK").value
     cardGenerator()
@@ -107,18 +110,21 @@ function stopGame(){
     }
     if (stop === 1) {
         stop += 1;
+        cards.setAttribute("class", "hidden");
+        document.getElementById("clock_timer").innerHTML = "Juego detenido"
         document.getElementById("questionZone").innerHTML = "<p class='cardTitle'>" + nombre + " Has detenido el juego estas son tus estadísticas aunque no van a ser almacenadas en la clasificación.</p><p>Aciertos: " + aciertos + "<br>Fallos:" + fallos + ". </p>"
+        
     } else if (stop === 2) {
         gameZone.setAttribute("class", "hidden");
-         document.getElementById("questionZone").innerHTML = ""
-         cards.setAttribute("class", "");
+        
+        cards.setAttribute("class", "");
     }
 }
 function stopGameTimeout(){
-        stop +=2;
-        document.getElementById("questionZone").innerHTML = "<p class='cardTitle'>" + nombre + " Se ha agotado el tiempo, estas son tus estadísticas, puedes comprobar tu clasificación en el inicio, pulsa el boton de salir.</p><p>Aciertos: " + aciertos + "<br>Fallos:" + fallos + ". </p>"
-        leaderboard.push({name : nombre, ok: aciertos, nok: fallos})
-        cards.setAttribute("class", "hidden");
+    stop +=2;
+    document.getElementById("questionZone").innerHTML = "<p class='cardTitle'>" + nombre + " Se ha agotado el tiempo, estas son tus estadísticas, puedes comprobar tu clasificación en el inicio, pulsa el boton de salir.</p><p>Aciertos: " + aciertos + "<br>Fallos:" + fallos + ". </p>"
+    leaderboard.push({name : nombre, ok: aciertos, nok: fallos})
+    cards.setAttribute("class", "hidden");
 }
 //--------------------Función temporizador
 var seconds;
@@ -128,17 +134,19 @@ function countdown() {
     seconds = document.getElementById('clock_timer').innerHTML;
     seconds = parseInt(seconds, 10);
 
-    if (seconds == 1) {
+    if (seconds === 0) {
       temp = document.getElementById('clock_timer');
       temp.innerHTML = "Tiempo agotado";
       stopGameTimeout()
       return;
-  }
+  } else if(seconds === "Juego detenido"){
+    return;
+}
 
-  seconds--;
-  temp = document.getElementById('clock_timer');
-  temp.innerHTML = seconds + " segundos  restantes";
-  timeoutMyOswego = setTimeout(countdown, 1000);
+seconds--;
+temp = document.getElementById('clock_timer');
+temp.innerHTML = seconds + " segundos  restantes";
+timeoutMyOswego = setTimeout(countdown, 1000);
 } 
 
 // 

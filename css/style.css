@@ -7,7 +7,7 @@ body{
 }
 #tablon{
     position: fixed;
-    top: 52.3%;
+    top: 57%;
     background-image: url(../img/tablon.png);
     width: 260px;
     height: 300px;
@@ -18,7 +18,7 @@ body{
 
 #tablon:hover{
     position: fixed;
-    top: 52.3%;
+    top: 57%;
     background-image: url(../img/tablon_hover.png);
     width: 260px;
     height: 300px;
@@ -97,9 +97,9 @@ html {
     font-family: witcher, sans-serif;
 }
 #textoIntro{
-    top: 4%;
+    top: 10%;
     position: fixed;
-    left: 61%;
+    left: 54%;
     width: 26em;
     text-align: justify;
     text-shadow: 1px 1px white;
@@ -109,7 +109,7 @@ html {
     top: 4%;
     position: fixed;
     left: 60%;
-    width: 25.5em;
+    width: 29em;
     text-align: justify;
     text-shadow: 2px 2px white;
     font-size: 16pt;
