@@ -149,6 +149,12 @@ function salute(){
 function introStop(){
     instructions.setAttribute("class", "hidden");
 }
+function about(){
+    social.setAttribute("class", "not_hidden");
+}
+function aboutStop(){
+    social.setAttribute("class", "hidden");
+}
 function tablon(){
     tabOpen.setAttribute("class", "not_hidde");
     clasi();

@@ -43,9 +43,35 @@ body{
     top: 39%;
     background-size: cover;
 }
+#geralt{
+    background-image:  url("../img/geralt.png");
+    width: 10%;
+    height: 24%;
+    position: fixed;
+    left: 22%;
+    top: 45%;
+    background-size: cover;
+}
+#geralt:hover{
+    background-image:  url("../img/geralt_hover.png");
+    width: 10%;
+    height: 24%;
+    position: fixed;
+    left: 22%;
+    top: 45%;
+    background-size: cover;
+}
 #instructions{
     background:  url(../img/intro.jpg) no-repeat left bottom fixed; 
     position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 99%;    
+}
+#social{
+    background:  url(../img/social.jpg); 
+    background-size: cover;
     top: 0%;
     left: 0%;
     width: 100%;
@@ -77,6 +103,15 @@ html {
     width: 26em;
     text-align: justify;
     text-shadow: 1px 1px white;
+    font-size: 16pt;
+}
+#textoSocial{
+    top: 4%;
+    position: fixed;
+    left: 60%;
+    width: 25.5em;
+    text-align: justify;
+    text-shadow: 2px 2px white;
     font-size: 16pt;
 }
 #gameZone{
@@ -181,4 +216,11 @@ button{
     width: 10em;
     bottom: 5%;
     left: 80%
+}
+.socialButtons{
+    text-align: center;
+}
+.socialButtons , a{
+    color: black;
+    text-decoration: none;
 }
